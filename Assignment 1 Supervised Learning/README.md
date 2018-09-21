@@ -23,4 +23,4 @@ The code is broken up into three main sections:
 1. Data Load & Preprocessing -> Exactly as it sounds. This section loads the data, performs one-hot encoding, scales numeric features, and reorders some of the columns.
 2. Helper Functions -> This section defines a few functions that are used across all of the classifiers. The functions include building learning curves and evaluating the final classifers.
 3. The Fun Part: Machine Learning! -> This section has funcions and execution cells for each of the 5 classifiers.
-
+4. Model Comparison Plots -> Compare the classifiers with plots for training and prediction times as well as learning rate.
