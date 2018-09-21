@@ -14,7 +14,10 @@ For testing on your own machine, you need only to install python 3.6 and the fol
 
 ## Running the Classifiers
 Optimal Way: Work with the iPython notebook (.ipnyb) using Jupyter or a similar environment. This allows you to "Run All" or you can run only the classifiers that you are interested in.
+
 Second Best Option: Run the python script (.py) after first editing the location where you have the two datasets saved on your local machine.
+
+Final Option (view only): Feel free to open up the (.html) file to see a sample output of all of the algorithms for both datasets.
 
 The code is broken up into three main sections:
 1. Data Load & Preprocessing -> Exactly as it sounds. This section loads the data, performs one-hot encoding, scales numeric features, and reorders some of the columns.
