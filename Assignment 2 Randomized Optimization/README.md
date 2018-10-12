@@ -1,13 +1,13 @@
 ## CS 7641 Assignment 2: Randomized Optimization
 This project seeks to understand the behavoiral and computatitonal and predictive qualities of four random search optimzation methods:
-- Randomized Hill CLimb (RHC)
+- Randomized Hill Climb (RHC)
 - Simulated Annealing (SA)
-- Genetic ALgorithms (GA)
+- Genetic Algorithms (GA)
 - Mutual Information Maximizing Input Clustering (MIMIC)
 
-##Prerequisites
+## Prerequisites
 These instructions apply for Windows 10 x64.
-For testing on your own machine, you need only to install the following libraries.
+For testing on your own machine, you need to install the following libraries.
 - ABAGAIL: https://github.com/pushkar/ABAGAIL
 - Apache Ant: https://ant.apache.org/bindownload.cgi
 - Java Development Kit: https://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html
@@ -15,22 +15,22 @@ For testing on your own machine, you need only to install the following librarie
 
 Once all of the prerequisites are installed, all of the methods are run from the Windows Command Prompt
 
-##Getting Started
+## Getting Started
 1. Download the PhishingWebsitesData_preprocessed.csv
-	a. Original Phishing Websites Data - available at https://www.openml.org/d/4534
+- Original Phishing Websites Data - available at https://www.openml.org/d/4534
 2. Edit the following .java files to point them towards your downloaded PhishingWebsitesData_preprocessed.csv file location
-	a. You can also use this time to edit the .java files to change the neurnal network structure
+- You can also use this time to edit the .java files to change the neurnal network structure
 - phishing_rhc.java
 - phishing_sa_val.java
 - phishing_ga_val.java
 - phishingwebsite_finaltest.java
-3. Convert all .java files to .class files with the following code from the command prompt
+3. Convert all .java files to .class files with the following code from the command prompt.
 > javac phishing_rhc.java
 > javac phishing_sa_val.java
 > javac phishing_ga_val.java
 > javac phishingwebsite_finaltest.java
 4. Move all .class files to the location ~\ABAGAIL\opt\test
-	a. Includes the 4 'phishing_' class files and the 3 '_Toy' class files
+- Includes the 4 'phishing_' class files and the 3 '_Toy' class files
 
 
 ## Part 1: Training a Neural Network using Random Search (RHC, SA, GA)
