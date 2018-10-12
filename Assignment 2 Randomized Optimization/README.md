@@ -1,5 +1,5 @@
 ## CS 7641 Assignment 2: Randomized Optimization
-This project seeks to understand the behavoiral and computatitonal and predictive qualities of four random search optimzation methods:
+This project seeks to understand the behavioral and computatitonal and predictive qualities of four random search optimzation methods:
 - Randomized Hill Climb (RHC)
 - Simulated Annealing (SA)
 - Genetic Algorithms (GA)
@@ -16,7 +16,7 @@ For testing on your own machine, you need to install the following libraries.
 Once all of the prerequisites are installed, all of the methods are run from the Windows Command Prompt
 
 ## Getting Started
-1. Download the PhishingWebsitesData_preprocessed.csv
+1. Download the dataset, PhishingWebsitesData_preprocessed.csv
 - Original Phishing Websites Data - available at https://www.openml.org/d/4534
 2. Edit the following .java files to point them towards your downloaded PhishingWebsitesData_preprocessed.csv file location. You can also use this time to edit the .java files to change the neurnal network structure
 - phishing_rhc.java
@@ -49,11 +49,11 @@ The model results (training times and neural network accuracies) are stored in .
 ## Part 2: Random Search Toy Problems
 This section presents 3 toy optimization problems for which RHC, SA, GA, and MIMIC are all used to maximize the function fitness.
 
-# 1. Traveling Salesman Problem - Highlights GA
+### 1. Traveling Salesman Problem - Highlights GA
 - java -cp ABAGAIL.jar opt.test.TravelingSalesman_Toy
-# 2. Continuous Peaks Problem - Highlights SA
+### 2. Continuous Peaks Problem - Highlights SA
 - java -cp ABAGAIL.jar opt.test.ContinuousPeaks_Toy
-# 3. Four Peaks Problem - Highlights MIMIC
+### 3. Four Peaks Problem - Highlights MIMIC
 - java -cp ABAGAIL.jar opt.test.TravelingSalesman_Toy
 
 The model results (training times and fitness function values) are stored in .csv files located at ~\ABAGAIL\Optimization_Results
