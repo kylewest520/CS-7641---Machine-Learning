@@ -49,11 +49,11 @@ The model results (training times and neural network accuracies) are stored in .
 ## Part 2: Random Search Toy Problems
 This section presents 3 toy optimization problems for which RHC, SA, GA, and MIMIC are all used to maximize the function fitness.
 
-#1. Traveling Salesman Problem - Highlights GA
+# 1. Traveling Salesman Problem - Highlights GA
 - java -cp ABAGAIL.jar opt.test.TravelingSalesman_Toy
-#2. Continuous Peaks Problem - Highlights SA
+# 2. Continuous Peaks Problem - Highlights SA
 - java -cp ABAGAIL.jar opt.test.ContinuousPeaks_Toy
-#3. Four Peaks Problem - Highlights MIMIC
+# 3. Four Peaks Problem - Highlights MIMIC
 - java -cp ABAGAIL.jar opt.test.TravelingSalesman_Toy
 
 The model results (training times and fitness function values) are stored in .csv files located at ~\ABAGAIL\Optimization_Results
