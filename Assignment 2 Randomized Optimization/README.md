@@ -1,5 +1,5 @@
 ## CS 7641 Assignment 2: Randomized Optimization
-This project seeks to understand the behavoiral and computatitonal and predictive qualities of four random search optimzatio methods:
+This project seeks to understand the behavoiral and computatitonal and predictive qualities of four random search optimzation methods:
 - Randomized Hill CLimb (RHC)
 - Simulated Annealing (SA)
 - Genetic ALgorithms (GA)
