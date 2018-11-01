@@ -1,10 +1,14 @@
 ## CS 7641 Assignment 3: Unsupervised Learning and Dimensionality Reduction
 This project seeks to understand the computatitonal and predictive qualities of two unsupervised learning techniques and four dimensionality reduction techniques.
+
 Unsupervised Learning Methods: k-means, expectation maximization (EM)
+
 Dimensionality Reduction Methods: principal components analysis (PCA), independent components analysis (ICA), random components analysis (RCA) and random forest feature selection.
 
 The two example datasets used in this project are:
+
 Dataset 1: Phishing Websites - available at https://www.openml.org/d/4534
+
 Dataset 2: Bank Marketing - available at https://www.openml.org/d/1461
 
 
