@@ -1,8 +1,6 @@
 ## CS 7641 Assignment 4: Markov Decision Processes and Reinforcement Learning
-This project seeks to understand the three reinforcement learning algorithms by applying them each to two different Markov decision processes
+This project seeks to understand the three reinforcement learning algorithms by applying them each to two different Markov decision processes (MDP). The reinforcement learning methods are value iteration, policy iteration, and Q-learning. The two MDP toy problems are inspired by Pacman! There is a small 5x5 grid world, and a large 20x20 grid world.
 
-Reinforcement Learning Methods: Value Iteration, Policy Iteration, Q-Learning
-Grid World Toy Problems, Inspired by Pacman! 5x5 small grid, 20x20 large grid.
 - For each grid, Pacman (our learning agent) starts in the top left corner and attempts to navigate his way to the goal by collecting a high score along his journey. Like the real game, Pacman has the opportunity to earn points by eating pellets and fruit, but he must avoid hitting the ghost at all costs. The reward structure for each grid world is represented by:
 - Small pellets (S) = +1 point
 - Medium fruit (M) = +2.5 points
@@ -13,12 +11,11 @@ Grid World Toy Problems, Inspired by Pacman! 5x5 small grid, 20x20 large grid.
 ## Getting Started & Prerequisites
 For testing on your own machine, the easiest way to implement is to follow the steps below:
 1. Download Eclipse IDE: https://www.eclipse.org/
-2. Download or clone my github file repository: https://github.com/kylewest520/CS-7641---Machine-Learning/tree/master/Assignment%203%20Unsupervised%20Learning
+2. Download or clone my github file repository: https://github.com/kylewest520/CS-7641---Machine-Learning/edit/master/Markov%20Decision%20Processes
 3. Import the project into Eclipse: http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-importproject.htm
 4. Update the current Eclipse project using Maven by right-clicking the top level project folder > Maven > Update Project
 5. Download the latest Java SE Development kit: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 6. Ready to go! You can now run the main.java class in the project folder using Eclipse
-
 
 ## Modifying the Code (in Main.java)
 The code is set up to run all three reinforcement learning algorithms for both problems sets by modifying a few lines.
