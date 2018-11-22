@@ -30,13 +30,9 @@ You can create your own grid worlds in Main.java line 282 (small grid) and line 
 An example for a small 5x5 grid is shown below:
 
 X0001
-
 00001
-
 0LML0
-
 0000S
-
 110SG
 
 ## Code Outputs
