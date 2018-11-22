@@ -1,7 +1,7 @@
 ## CS 7641 Assignment 4: Markov Decision Processes and Reinforcement Learning
 This project seeks to understand the three reinforcement learning algorithms by applying them each to two different Markov decision processes (MDP). The reinforcement learning methods are value iteration, policy iteration, and Q-learning. The two MDP toy problems are inspired by Pacman! There is a small 5x5 grid world, and a large 20x20 grid world.
 
-- For each grid, Pacman (our learning agent) starts in the top left corner and attempts to navigate his way to the goal by collecting a high score along his journey. Like the real game, Pacman has the opportunity to earn points by eating pellets and fruit, but he must avoid hitting the ghost at all costs. The reward structure for each grid world is represented by:
+For each grid, Pacman (our learning agent) starts in the top left corner and attempts to navigate his way to the goal by collecting a high score along his journey. Like the real game, Pacman has the opportunity to earn points by eating pellets and fruit, but he must avoid hitting the ghost at all costs. The reward structure for each grid world is represented by:
 - Small pellets (S) = +1 point
 - Medium fruit (M) = +2.5 points
 - Large ghosts (L) = -50 points
@@ -28,10 +28,15 @@ The code is set up to run all three reinforcement learning algorithms for both p
 ## Creating Your Own Grid Worlds
 You can create your own grid worlds in Main.java line 282 (small grid) and line 320 (large grid). Note that this implementation requires both grid worlds to be square grids. The code allows for inputting a starting location (X), goal location (G), walls (1's), and small (S), medium (M), and large (L) rewards or penalties. To make S/M/L block a penalty, simply set the HazardType to be a negative number.
 An example for a small 5x5 grid is shown below:
+
 X0001
+
 00001
+
 0LML0
+
 0000S
+
 110SG
 
 ## Code Outputs
@@ -43,5 +48,4 @@ After running the code for a given grid/algorithm there will be a few outputs.
 ## Acknowledgements
 The source code for this assignment was modified from the original versions found at:
 1. http://burlap.cs.brown.edu/
-2. https://github.com/svpino/cs7641-assignment4 
-	I am indebted to this github repository. Please visit it to see the original implementation with extensive notes in the README.
+2. https://github.com/svpino/cs7641-assignment4. I am indebted to this github repository. Please visit it to see the original implementation with extensive notes in the README.
