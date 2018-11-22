@@ -11,7 +11,7 @@ For each grid, Pacman (our learning agent) starts in the top left corner and att
 ## Getting Started & Prerequisites
 For testing on your own machine, the easiest way to implement is to follow the steps below:
 1. Download Eclipse IDE: https://www.eclipse.org/
-2. Download or clone my github file repository: https://github.com/kylewest520/CS-7641---Machine-Learning/edit/master/Markov%20Decision%20Processes
+2. Download or clone my github file repository: https://github.com/kylewest520/CS-7641---Machine-Learning/tree/master/Assignment%204%20Markov%20Decision%20Processes
 3. Import the project into Eclipse: http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-importproject.htm
 4. Update the current Eclipse project using Maven by right-clicking the top level project folder > Maven > Update Project
 5. Download the latest Java SE Development kit: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
