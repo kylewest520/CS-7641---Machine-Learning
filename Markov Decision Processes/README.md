@@ -29,10 +29,10 @@ The code is set up to run all three reinforcement learning algorithms for both p
 You can create your own grid worlds in Main.java line 282 (small grid) and line 320 (large grid). Note that this implementation requires both grid worlds to be square grids. The code allows for inputting a starting location (X), goal location (G), walls (1's), and small (S), medium (M), and large (L) rewards or penalties. To make S/M/L block a penalty, simply set the HazardType to be a negative number.
 An example for a small 5x5 grid is shown below:
 
-X0001
-00001
-0LML0
-0000S
+X0001  
+00001  
+0LML0  
+0000S  
 110SG
 
 ## Code Outputs
